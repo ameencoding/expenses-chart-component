@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Expenses chart component</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body class="flex">
+    <div class="wrapper">
+      <header class="flex">
+        <div class="header-balance">
+          <p class="t-sm">My balance</p>
+          <p class="t-md">$921.48</p>
+        </div>
+        <div class="logo">
+          <img src="./images/logo.svg" alt="logo" />
+        </div>
+      </header>
+      <div class="card">
+        <h2>Spending - Last 7 days</h2>
+        <div class="chart flex">
+          <div class="chart-mon">
+            <span class="t-sm">mon</span>
+            <span class="t-sm price">$17.5</span>
+          </div>
+          <div class="chart-tue">
+            <span class="t-sm">tue</span>
+            <span class="t-sm price">$34.91</span>
+          </div>
+          <div class="chart-wed">
+            <span class="t-sm">wed</span>
+            <span class="t-sm price">$52.36</span>
+          </div>
+          <div class="chart-thu">
+            <span class="t-sm">thu</span>
+            <span class="t-sm price">$31.07</span>
+          </div>
+          <div class="chart-fri">
+            <span class="t-sm">fri</span>
+            <span class="t-sm price">$23.39</span>
+          </div>
+          <div class="chart-sat">
+            <span class="t-sm">sat</span>
+            <span class="t-sm price">$43.28</span>
+          </div>
+          <div class="chart-sun">
+            <span class="t-sm">sun</span>
+            <span class="t-sm price">$25.48</span>
+          </div>
+        </div>
+        <div class="line"></div>
+        <footer class="flex">
+          <div class="footer-title">
+            <p class="t-sm">Total this month</p>
+            <p>$478.33</p>
+          </div>
+          <div class="last-month">
+            <p class="t-sm">+2.4%</p>
+            <p class="t-sm">from last month</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
